@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>HVAC web site</title>
+    <link rel="shortcut icon" href="./images/egolLogo.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css" />
 
     <!-- font  -->
@@ -34,46 +36,6 @@
   <body class="font-[Manrope]">
     <!-- Navbar Container -->
     <div class="hero-area bg-green-800 bg-[url(./images/baground-img.png)]">
-      <!-- <div
-        class=" max-w-6xl  mx-auto flex items-center justify-center space-x-6 bg-white"
-      >
-        Logo
-        <div class="nav-icon-txt">
-          <img
-            src="./images/logo.png"
-            alt="./images/logo.png"
-            class="h-10 w-auto"
-          />
-        </div>
-
-        Nav Items
-        <div class="nav-items">
-          <ul class="flex flex-row ml-60 text-2xl space-x-6 text-black">
-            <li class="item">
-              <a href="#" class="hover:text-gray-300">About Us</a>
-            </li>
-            <li class="item">
-              <a href="#" class="hover:text-gray-300">Services</a>
-            </li>
-            <li class="item">
-              <a href="#" class="hover:text-gray-300">Past Work</a>
-            </li>
-            <li class="item">
-              <a href="#" class="hover:text-gray-300">Reviews</a>
-            </li>
-          </ul>
-        </div>
-
-        CTA Text
-        <div class="ml-auto">
-          <p
-            class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition cursor-pointer"
-          >
-            Get Free Quote
-          </p>
-        </div>
-      </div> -->
-
       <!-- navbar is start  -->
       <section class="relative m-0 p-0 overflow-x-hidden">
         <!-- Content Layer  -->
@@ -457,7 +419,7 @@
         </div>
       </div>
 
-      <dsiv class="button flex justify-center mt-5">
+      <dsiv class="button flex justify-center mt-5 sm:mt-0 md:-ml-20 lg:-ml-40">
         <button
           class="btn ext-center w-[90px] h-[40px] cursor-pointer bg-green-600 text-white border rounded-3xl"
         >
@@ -530,7 +492,7 @@
           <p class="font-[sora] text-[16px] font-normal">EPA Certified</p>
         </div>
       </div>
-      <div class="card-1">
+      <div class="card-1 mb-10">
         <div class="grid justify-center">
           <img src="./images/trus-logo-5.png" alt="logo" />
         </div>
@@ -683,6 +645,7 @@
     </div>
 
     <!-- Save Big on Your Next HVAC Project section star  -->
+
     <div class="trusted-heading text-center">
       <h2
         class="text-black font-bold text-3xl sm:text-4xl font-[manrope] mt-7 mb-5"
@@ -691,39 +654,40 @@
       </h2>
     </div>
 
-    <!-- <div class="save-img-card grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
-      <div class="images absolute">
-        <img src="./images/aci-background.png" alt="" class="" />
-      </div>
+    <div
+      class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 w-[96%] lg:my-12 mx-auto"
+    >
       <div
-        class="overlay relative py-10 md:pt-28 md:px-10 md:top-53"
-        style="background-color: rgba(22, 101, 52, 0.58)"
+        class="rounded-2xl p-2 my-10 lg:w-[580px] xl:w-[750px] lg:my-0"
+        style="
+          background-image: url(./images/color-bg.png);
+          background-repeat: no-repeat;
+        "
       >
-        <div class="button bg-white rounded w-20 flex justify-center">
-          <button class="text-green-400">Hot Offer</button>
-        </div>
-        <div class="head">
-          <h2
-            class="text-white font-[Manrope] font-medium text-[24px] leading-[32px] my-6"
-          >
-            Get $500 OFF New HVAC System Installation!
-          </h2>
-        </div>
-        <div class="para">
-          <p class="text-white text-[14px] font-normal font-[sora]">
-            Upgrade your comfort and save big! Get an instant $500 OFF when you
-            install a brand-new, energy-efficient HVAC system — limited time
-            only!
-          </p>
-        </div>
-      </div>
-
-      <div class="card-1">
-        <div class="images">
-          <img src="./images/s-worker-2.png" alt="" />
+        <div class="overlay pt-20 py-10 md:pt-28 md:px-10 md:top-53">
+          <div class="button bg-white rounded w-20 flex justify-center">
+            <button class="text-green-400">Hot Offer</button>
+          </div>
+          <div class="head">
+            <h2
+              class="text-white font-[Manrope] font-medium text-[24px] leading-[32px] my-6"
+            >
+              Get $500 OFF New HVAC System Installation!
+            </h2>
+          </div>
+          <div class="para">
+            <p class="text-white text-[14px] font-normal font-[sora]">
+              Upgrade your comfort and save big! Get an instant $500 OFF when
+              you install a brand-new, energy-efficient HVAC system — limited
+              time only!
+            </p>
+          </div>
         </div>
       </div>
-    </div> -->
+      <div class="img lg:ml-30">
+        <img src="./images/s-worker-2.png" alt="" />
+      </div>
+    </div>
 
     <!-- How We Bring Comfort to Your Home section start  -->
     <div class="trusted-heading text-center">
@@ -1052,7 +1016,7 @@
     </div>
 
     <div
-      class="icon-text-card w-[92%] sm:w-[80%] mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-7"
+      class="icon-text-card w-[92%] sm:w-[80%] mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-7 py-10"
     >
       <div
         class="icon-card flex gap-2 border border-green-800 w-[130px] h-[40px] justify-center items-center rounded-[30px] mb-4"
@@ -1248,7 +1212,7 @@
     </div>
 
     <!-- footer section start  -->
-    <footer class="w-[100%] mx-auto bg-green-800 p-2">
+    <footer class="w-[100%] mx-auto bg-green-800 p-2 pt-20">
       <div
         class="flex flex-col sm:flex-row bg-white rounded w-[96%] md:w-[90%] sm:w-[80%] mx-auto justify-between items-center p-3"
       >
@@ -1268,32 +1232,47 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-7 border-gray-400  border-b-2 md:w-[90%] mt-7 mx-auto sm:w-[80%] ">
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-7 border-gray-400 border-b-2 md:w-[90%] mt-7 mx-auto sm:w-[80%]"
+      >
         <div class="footer-frist-card">
           <h2
-            class="text-white py-4 font-[Port Lligat Slab ] font-normal text-5xl"
+            class="text-white py-4 font-[Manrope ] font-normal text-5xl"
           >
             CoolQuest
           </h2>
-          <p class="text-white font-[sora] text-[12px] font-normal leading-5 xl:pr-8">
-            Trusted local HVAC experts delivering reliable heating and cooling solutions.
+          <p
+            class="text-white font-[sora] text-[12px] font-normal leading-5 xl:pr-8"
+          >
+            Trusted local HVAC experts delivering reliable heating and cooling
+            solutions.
           </p>
-          <div class="social-icon flex gap-4 my-4 ">
+          <div class="social-icon flex gap-4 my-4">
             <div class="icon-f">
-              <a href="#" class="text-2xl text-white"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="text-2xl text-white"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
             </div>
             <div class="icon-f">
-              <a href="#" class="text-2xl text-white"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="text-2xl text-white"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
             </div>
             <div class="icon-f">
-              <a href="#" class="text-2xl text-white"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" class="text-2xl text-white"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
             </div>
           </div>
         </div>
         <div class="second-card sm:mb-4">
-          <h2 class="font-medium font-[Manrope] text-[32px] text-white"> Quick links</h2>
+          <h2 class="font-medium font-[Manrope] text-[32px] text-white">
+            Quick links
+          </h2>
           <div class="items text-white">
-            <ul class="pages-items font-[Manrope] font-bold text-[18px] leading-[34px]">
+            <ul
+              class="pages-items font-[Manrope] font-bold text-[18px] leading-[34px]"
+            >
               <li><a href="#" class="item"> Home</a></li>
               <li><a href="#" class="item"> Service </a></li>
               <li><a href="#" class="item"> About </a></li>
@@ -1302,7 +1281,7 @@
             </ul>
           </div>
         </div>
-        <div class="3rd-card flex flex-col gap-2  mb-5">
+        <div class="3rd-card flex flex-col gap-2 mb-5">
           <div class="icon-text flex gap-4 text-white">
             <div class="icon">
               <i class="fa-solid fa-phone"></i>
@@ -1316,7 +1295,9 @@
               <i class="fa-solid fa-envelope"></i>
             </div>
             <div class="text">
-              <p class="font-[sora] font-normal text-[16px]">mail.coolquest.com</p>
+              <p class="font-[sora] font-normal text-[16px]">
+                mail.coolquest.com
+              </p>
             </div>
           </div>
           <div class="icon-text flex gap-4 text-white">
@@ -1324,7 +1305,9 @@
               <i class="fa-solid fa-location-dot"></i>
             </div>
             <div class="text">
-              <p class="font-[sora] font-normal text-[16px]">1234 Maplewood Drive, Houston, TX 77002, United States</p>
+              <p class="font-[sora] font-normal text-[16px]">
+                1234 Maplewood Drive, Houston, TX 77002, United States
+              </p>
             </div>
           </div>
         </div>
@@ -1333,9 +1316,12 @@
 
     <footer class="bg-green-800">
       <div class="">
-
         <div class="copy-text">
-          <p class="font-[sora] text-[16px] font-normal text-white py-8 text-center"> &copy 2025 all rights resereved</p>
+          <p
+            class="font-[sora] text-[16px] font-normal text-white py-8 text-center"
+          >
+            &copy 2025 all rights resereved
+          </p>
         </div>
       </div>
     </footer>
